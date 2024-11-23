@@ -129,7 +129,7 @@ export const SongView = () => {
                   <input
                     type="range"
                     min="30"
-                    max="150"
+                    max="200"
                     step="10"
                     value={bpm}
                     onChange={(e) => {

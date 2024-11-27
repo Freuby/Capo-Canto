@@ -179,7 +179,7 @@ export const SongView = () => {
           {song.mediaLink && (
             <div className="mb-6">
               <h2 className="text-sm font-medium text-gray-500 mb-2">Média</h2>
-              <a className="text-lg break-words" href="{song.mediaLink}">{song.mediaLink}</a>
+              <a href={song.mediaLink}>{song.mediaLink}</a>
             </div>
           )}
         </div>

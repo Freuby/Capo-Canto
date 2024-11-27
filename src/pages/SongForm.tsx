@@ -140,6 +140,20 @@ export const SongForm = () => {
           />
         </div>
 
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            Lien web
+          </label>
+          <input
+            type="text"
+            value={formData.mediaLink}
+            onChange={(e) =>
+              setFormData((prev) => ({ ...prev, mediaLink: e.target.value }))
+            }
+            className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        
         <div className="flex space-x-4">
           <button
             type="submit"

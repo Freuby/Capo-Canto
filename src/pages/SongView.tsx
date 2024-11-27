@@ -128,9 +128,9 @@ export const SongView = () => {
                 <div className="flex items-center space-x-2">
                   <input
                     type="range"
-                    min="30"
-                    max="300"
-                    step="10"
+                    min="25"
+                    max="500"
+                    step="25"
                     value={bpm}
                     onChange={(e) => {
                       setBpm(Number(e.target.value));
@@ -141,7 +141,7 @@ export const SongView = () => {
                     }}
                     className="w-24"
                   />
-                  <span className="text-sm">{bpm} ~BPM</span>
+                  <span className="text-sm">{bpm} scroll</span>
                 </div>
               )}
             </>

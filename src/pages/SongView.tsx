@@ -208,7 +208,7 @@ export const SongView = () => {
         <div className="fixed bottom-20 left-0 right-0 p-4 bg-inherit border-t">
           <div className="flex items-center justify-center space-x-2 w-full py-3 bg-blue-600 text-white rounded-lg">
             <Music size={20} />
-            <span className="break-words">{song.mediaLink}</span>
+            <span className="break-words">Voir média</span>
           </div>
         </div>
       )}
